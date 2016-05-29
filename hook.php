@@ -10,7 +10,7 @@ require __DIR__ . '/vendor/autoload.php';
 
 $API_KEY = '222942975:AAGV3w63SwXLZMoFa6rKnkYVrP5cICcKTzA';
 $BOT_NAME = 'encrypbot';
-//$commands_path = __DIR__ . '/Commands/';
+$commands_path = __DIR__ . '/Commands/';
 //$mysql_credentials = [
 //    'host'     => 'localhost',
 //    'user'     => 'dbuser',
@@ -29,7 +29,7 @@ try {
     //$telegram->enableMySQL($mysql_credentials, $BOT_NAME . '_');
 
     //// Add an additional commands path
-    //$telegram->addCommandsPath($commands_path);
+    $telegram->addCommandsPath($commands_path);
 
     //// Here you can enable admin interface for the channel you want to manage
     //$telegram->enableAdmins(['your_telegram_id']);
