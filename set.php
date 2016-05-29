@@ -3,7 +3,7 @@
 require __DIR__ . '/vendor/autoload.php';
 
 $API_KEY = '222942975:AAGV3w63SwXLZMoFa6rKnkYVrP5cICcKTzA';
-$BOT_NAME = 'encrybot';
+$BOT_NAME = 'encrypbot';
 $hook_url = 'https://encbot.herokuapp.com/hook.php';
 try {
     // Create Telegram API object
