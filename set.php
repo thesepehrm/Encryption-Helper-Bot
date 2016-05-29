@@ -2,7 +2,7 @@
 // Load composer
 require __DIR__ . '/vendor/autoload.php';
 
-$API_KEY = '222942975:AAGV3w63SwXLZMoFa6rKnkYVrP5cICcKTzA';
+$API_KEY = '222942975:AAFGKCSwpSK9-_PBwGInkWSzPPSQrpq_SJw';
 $BOT_NAME = 'encrypbot';
 $hook_url = 'https://encbot.herokuapp.com/hook.php';
 try {
